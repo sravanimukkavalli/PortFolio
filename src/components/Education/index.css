@@ -1,0 +1,51 @@
+.contact-container {
+  background-image: linear-gradient(#151618, #40434c, #376e99);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+}
+.education-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 70vh;
+}
+
+.education-name {
+  color: azure;
+  font-size: 15px;
+  font-family: 'PlayFair Display';
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+.unordered-education-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}
+.each-education-item {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-icon {
+  width: 40px;
+  height: 40px;
+  color: #73d2f5;
+}
+.education-detail-heading {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+  text-align: center;
+  font-weight: 400;
+}
